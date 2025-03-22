@@ -1,7 +1,6 @@
-<h1>{{ message }}</h1>
-<img 
-  [src]="logoPath" 
-  alt="BridgeLabz Logo" 
-  width="200"
-  style="cursor: pointer;" 
-  (click)="openBridgeLabz()"> 
+<h1>Hello from BridgeLabz, {{ userName }}!</h1> <!-- ✅ Interpolation -->
+
+<input 
+  type="text" 
+  [(ngModel)]="userName" 
+  placeholder="Enter your name">

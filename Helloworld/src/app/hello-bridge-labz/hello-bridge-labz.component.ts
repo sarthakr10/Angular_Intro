@@ -6,11 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./hello-bridge-labz.component.scss']
 })
 export class HelloBridgeLabzComponent {
-  message: string = "Hello from BridgeLabz";
-  logoPath: string = 'assets/BridgeLabz.jpg';
-  bridgeLabzUrl: string = 'https://www.bridgelabz.com'; // ✅ Define the URL
+  // message: string = "Hello from BridgeLabz";
+  // logoPath: string = 'assets/BridgeLabz.jpg';
+  // bridgeLabzUrl: string = 'https://www.bridgelabz.com'; // ✅ Define the URL
 
-  openBridgeLabz(): void {
-    window.open(this.bridgeLabzUrl, '_blank'); // ✅ Open in a new tab
-  }
+  // openBridgeLabz(): void {
+  //   window.open(this.bridgeLabzUrl, '_blank'); // ✅ Open in a new tab
+  // }
+  userName: string = ''; // ✅ Initialize empty string
 }
